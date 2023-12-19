@@ -23,6 +23,7 @@ def shuffle(deck):
         temp = deck[i]
         deck[i] = deck[other_pos]
         deck[other_pos] = temp
+        return deck
 
 
 # Optimizing the shuffle code The current implementation of the Fisher-Yates shuffle uses two nested loops,
